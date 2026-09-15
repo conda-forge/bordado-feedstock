@@ -1,5 +1,5 @@
 {% set name = "bordado" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bordado-{{ version }}.tar.gz
-  sha256: 514f216f384197f221600f1292bf44f8271a8485a49b2488b7eec8e5d2769ce0
+  sha256: b01e77947b3d2f57aff441b02e9f55172fbd364ce94a7bc92c107170a75a800d
 
 build:
   noarch: python
